@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework', #장고 레스트 프레임워크
+    'games.apps.GamesConfig' # Games 어플리케이션
 ]
 
 MIDDLEWARE = [
